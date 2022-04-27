@@ -53,12 +53,26 @@ int main() {
 		cout << "Escribe el mensaje:\n";
 		gotoxy(5, 13);
 		cin >> ws;
+		system("cls;");
 		getline(cin, msg);
+		//=============== Estetica del programa =========================
+		system("color 0f");
+		cuadro();//Impresion de cuadro
+		gotoxy(30, 3);
+		cout << ".:. ENCRIPTACION .:.";
+		gotoxy(20, 6);
+		cout << "E N C R I P T A D O R | Franklin Gutierrez ";
+		//================================================================
 
 		if (opt == '1') {
 			// ENCRIPTAR
 			auto nuevo = base64::Cifrar(msg);
-			cout << "\nMensaje encriptado: " << nuevo;
+			gotoxy(5, 18);
+			cout << "Mensaje encriptado:";
+			gotoxy(5, 19);
+			cout << "_________________________________";
+			gotoxy(5, 21);
+			cout<< nuevo;
 		}
 		else {
 			// DESENCRIPTAR
