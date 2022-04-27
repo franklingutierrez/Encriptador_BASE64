@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encriptador", "Encriptador.vcxproj", "{02F4B916-2435-46EA-A71B-CC20869B644D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Debug|x64.ActiveCfg = Debug|x64
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Debug|x64.Build.0 = Debug|x64
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Debug|x86.ActiveCfg = Debug|Win32
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Debug|x86.Build.0 = Debug|Win32
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Release|x64.ActiveCfg = Release|x64
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Release|x64.Build.0 = Release|x64
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Release|x86.ActiveCfg = Release|Win32
+		{02F4B916-2435-46EA-A71B-CC20869B644D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2A61D48-C9EB-48E6-B4EA-A781E8B99E72}
+	EndGlobalSection
+EndGlobal
