@@ -184,11 +184,11 @@ Ahora agregaremos iguales segun se necesite para que al  momento de la conversi√
 
 Por lo tanto si ponemos 2 caracteres, es decir 3k-1 lo que se hara es agragar 1 igual =
 
-![Untitled](Encryptar%20texto%20en%20BASE64%206d7085c89ea74c0cba120882dba7de4d/Untitled.png)
+![2_caracteres](https://user-images.githubusercontent.com/47339569/166090028-8c751126-6d6d-4ef4-92d2-78296b0c52ad.png)
 
 Pero si es 1 caracter, es decir 3k+1, lo que se hara es agragr 2 iguales ==
 
-![Untitled](Encryptar%20texto%20en%20BASE64%206d7085c89ea74c0cba120882dba7de4d/Untitled%201.png)
+![1_caracter](https://user-images.githubusercontent.com/47339569/166090027-fba3e953-f194-4890-bab9-7f10b19af4ba.png)
 
 - Ahora lo que tendremos que hacer es agregar la logica al codigo, decimos para el priemr caso, si la logitud del texto divida por 3  el resto es 1, hay que agregarle 4 ceros mas y  al resultado final tendremos que agregarle 2 iguales:
     
