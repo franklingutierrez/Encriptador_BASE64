@@ -32,7 +32,7 @@ inline int base64::bin2int(string b) {
 	return r;
 }
 
-//
+//===================FUNCION PARA CIFRAR =================================
 inline string base64::Cifrar(string t) {
 	if (t == "") return "";//si el texto es nulo devolvera nulo
 
@@ -47,11 +47,11 @@ inline string base64::Cifrar(string t) {
 		b += "00";
 		extra = "=";
 	}
-
+	// recorremos en grupos de 6 todo el texto en binario.
 	for (int i = 0; i < b.length(); i += 6) r += BASE64[bin2int(b.substr(i, 6))];
 	return r + extra;
 }
-
+//===================== FUNCION PARA DESIFRAR =============================
 inline string base64::Descifrar(string t) {
 	if (t == "") return "";
 
